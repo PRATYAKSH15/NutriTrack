@@ -53,7 +53,7 @@ Welcome to **NutriTrack**, your intelligent AI-powered nutritionist built using 
 - **Python** – for core logic and data processing  
 - **SQLite** – lightweight database used to store user profiles, meal history, and dietary preferences  
 - **SQLAlchemy** – ORM for interacting with the SQLite database  
-- **Render** – for deployment
+- **Render/Streamlit** – for deployment
 
 ---
 
