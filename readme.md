@@ -2,6 +2,8 @@
 
 Welcome to **NutriTrack**, your intelligent AI-powered nutritionist built using **Gemini 1.5 Flash**. This app offers personalized meal insights and diet plans based on uploaded food images and user-specific dietary goals.
 
+---
+
 ## 🚀 Features
 
 - 📸 **Food Image Analysis**  
@@ -15,9 +17,9 @@ Welcome to **NutriTrack**, your intelligent AI-powered nutritionist built using 
 
 - 🥗 **Personalized Diet Plan Generator**  
   Generate tailored diet plans based on:
-  - Age
-  - Gender
-  - Weight
+  - Age  
+  - Gender  
+  - Weight  
   - Health Goal (e.g., Weight Loss, Muscle Gain, Maintenance)
 
 - 💬 **Dietary Preferences**  
@@ -46,11 +48,20 @@ Welcome to **NutriTrack**, your intelligent AI-powered nutritionist built using 
 
 ## 🧪 Tech Stack
 
-- **Gemini 1.5 Flash API** - for image and text-based AI inference  
-- **Streamlit** - for interactive frontend and backend integration  
-- **Python** - for core logic and data processing  
-- **SQLite** - lightweight database used to store user profiles, meal history, and dietary preferences  
-- **Render** - for deployment
+- **Gemini 1.5 Flash API** – for image and text-based AI inference  
+- **Streamlit** – for interactive frontend and backend integration  
+- **Python** – for core logic and data processing  
+- **SQLite** – lightweight database used to store user profiles, meal history, and dietary preferences  
+- **SQLAlchemy** – ORM for interacting with the SQLite database  
+- **Render** – for deployment
+
+---
+
+## 🗒️ Database Info
+
+- The app uses **SQLite** via **SQLAlchemy** for all database operations.
+- The database file `meals.db` is **auto-created** on the first run — no setup required.
+- To keep your repository clean and protect user data, `meals.db` is excluded from version control using `.gitignore`.
 
 ---
 
