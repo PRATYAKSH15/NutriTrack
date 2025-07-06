@@ -1,4 +1,4 @@
-# 🧠 AI Nutritionist - Multi-User Diet Assistant
+# 🧠 NutriTrack - AI Nutritionist Multi-User Diet Assistant
 
 Welcome to **NutriTrack**, your intelligent AI-powered nutritionist built using **Gemini 1.5 Flash**. This app offers personalized meal insights and diet plans based on uploaded food images and user-specific dietary goals.
 
@@ -47,9 +47,10 @@ Welcome to **NutriTrack**, your intelligent AI-powered nutritionist built using 
 ## 🧪 Tech Stack
 
 - **Gemini 1.5 Flash API** - for image and text-based AI inference  
-- **Streamlit** (suggested for frontend/backend integration)  
-- **Python** for core logic and data processing
-- **Render** for deployement
+- **Streamlit** - for interactive frontend and backend integration  
+- **Python** - for core logic and data processing  
+- **SQLite** - lightweight database used to store user profiles, meal history, and dietary preferences  
+- **Render** - for deployment
 
 ---
 
@@ -58,4 +59,4 @@ Welcome to **NutriTrack**, your intelligent AI-powered nutritionist built using 
 ```bash
 git clone https://github.com/PRATYAKSH15/NutriTrack.git
 pip install -r requirements.txt
-streamlit run app.py 
+streamlit run app.py
