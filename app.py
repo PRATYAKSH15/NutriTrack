@@ -36,7 +36,7 @@ if "logged_in" not in st.session_state:
 # Login / Register UI
 # ----------------------------------------
 def login_ui():
-    st.title("🔐 Login to AI Nutritionist")
+    st.title("🔐 Login to AI NutriTrack")
     login_tab, register_tab = st.tabs(["Login", "Register"])
 
     with login_tab:
