@@ -23,7 +23,7 @@ from streamlit_echarts import st_echarts
 # ----------------------------------------
 # Page Config
 # ----------------------------------------
-st.set_page_config(page_title="AI Nutritionist - Multi-user", layout="centered")
+st.set_page_config(page_title="NutriTrack", layout="centered")
 
 # Session state for login
 if "logged_in" not in st.session_state:
@@ -36,7 +36,7 @@ if "logged_in" not in st.session_state:
 # Login / Register UI
 # ----------------------------------------
 def login_ui():
-    st.title("🔐 Login to AI NutriTrack")
+    st.title("🔐 Login to NutriTrack - Your Personalized Nutrition Tracker")
     login_tab, register_tab = st.tabs(["Login", "Register"])
 
     with login_tab:
