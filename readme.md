@@ -27,6 +27,24 @@ Welcome to **NutriTrack**, your intelligent AI-powered nutritionist built using 
 
 ---
 
+## 📱 App Overview
+
+Below are some screenshots of the **NutriTrack** application in action:
+
+<p align="center">
+  <img src="NutriTrack1.png" alt="Upload the food image, AI analyzes and gives a nutrition report" width="80%" />
+</p>
+
+<p align="center">
+  <img src="NutriTrack2.png" alt="Personalized Diet Plan Generator - AI-generated report downloadable as PDF" width="80%" />
+</p>
+
+<p align="center">
+  <img src="NutriTrack3.png" alt="AI-generated nutrition report after image analysis" width="80%" />
+</p>
+
+---
+
 ## 📷 How to Use
 
 1. **Upload a Meal Image**  
