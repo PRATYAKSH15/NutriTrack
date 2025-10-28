@@ -17,7 +17,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def load_model():
-    return genai.GenerativeModel("models/gemini-1.5-flash")
+    return genai.GenerativeModel("models/gemini-2.5-flash")
 
 def image_to_bytes(image: Image.Image) -> bytes:
     img_byte_arr = io.BytesIO()
