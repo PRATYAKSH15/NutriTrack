@@ -72,7 +72,7 @@ if not st.session_state.logged_in:
 # Main App After Login
 # ----------------------------------------
 st.title(f"🥗 Welcome, {st.session_state.username}")
-st.caption("AI Nutritionist using Gemini 1.5 Flash with multi-user support")
+st.caption("AI Nutritionist using Gemini 2.5 Flash with multi-user support")
 
 # Sidebar Navigation
 with st.sidebar:
@@ -95,7 +95,7 @@ if selected_feature == "📤 Upload Food Image":
         st.image(image, caption="Uploaded Image", use_container_width=True)
 
         if st.button("🔍 Analyze"):
-            with st.spinner("Analyzing with Gemini 1.5 Flash..."):
+            with st.spinner("Analyzing with Gemini 2.5 Flash..."):
                 try:
                     report = generate_nutrition_report(image, user_query)
                     st.subheader("🧾 Nutrition Report")
